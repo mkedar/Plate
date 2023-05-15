@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import './header.css';
+import './properties.css'
+import HeaderSetup from './HeaderSetup.tsx';
+import InputBox from './InputBox.tsx'
+import OutputBox from './OutputBox.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ backgroundColor: '#FFFFFF', height: '844px', width: '390px', position: 'relative' }}>      
+      <HeaderSetup/>
+      <InputBox/>
+      <OutputBox/>  
     </div>
   );
 }

@@ -1,0 +1,63 @@
+.HeaderFont {
+    position: absolute;
+    width: 435px;
+    height: 167px;
+    top: 0px;
+    left: 20px;
+    white-space: normal;
+
+    font-family: 'SF-Pro-Display-Heavy';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'zero' on;
+  
+    color: #000000;
+  
+    border: 0px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+.HeaderFont2 {
+    position: absolute;
+    width: 435px;
+    height: 167px;
+    top: 40px;
+    left: 20px;
+    white-space: normal;
+
+    font-family: 'SF-Pro-Display-Heavy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'zero' on;
+    
+    color: #D9D9D9;
+    
+    border: 0px solid #D9D9D9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.ButtonFont {
+    position: absolute;
+    width: 147px;
+    height: 24px;
+    left: 198px;
+    top: 358px;
+    
+    font-family: 'SF-Pro-Display-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}

@@ -1,0 +1,84 @@
+.Box {
+    position: absolute;
+    width: 345px;
+    height: 243px;
+    left: 26px;
+    top: 164px;
+    background: #D9D9D9;
+    border-radius: 15px;
+  }
+  
+  .InnerBox {
+    position: absolute;
+    width: 327px;
+    height: 157px;
+    left: 35px;
+    top: 181px;
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+  .InputBox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    top: 75px;
+    width: 300px;
+    text-indent: 0px;
+    height: 15px;
+    padding: 5px;
+    padding-bottom: 120px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'SF-Pro-Display-Semibold', sans-serif;
+    background-image: url(C:\Users\User\Desktop\plate\src\microphone.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    outline: none;
+  }
+  
+  .InvisibleButton {
+    position: fixed;
+    top: 300px;
+    left: 45px;
+    width: 20px;
+    height: 30px;
+    opacity: 0;  /* Set opacity to 0 to make the button invisible */
+  }
+  
+  
+
+  
+  .ProccesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF-Pro-Display-Medium', sans-serif; 
+    position: absolute;
+    width: 246px;
+    height: 51px;
+    left: 113px;
+    top: 345px;
+  
+    background: #6CD052;
+    border-radius: 15px;
+  }
+  
+  .ResetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF-Pro-Display-Medium', sans-serif; 
+    position: absolute;
+    width: 54px;
+    height: 51px;
+    left: 47px;
+    top: 345px;
+  
+    background: #B65E5E;
+    border-radius: 15px;
+  }
+  
